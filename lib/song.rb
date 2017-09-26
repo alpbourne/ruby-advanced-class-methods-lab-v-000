@@ -50,8 +50,9 @@ class Song
     file = file_name.chomp(".mp3").split(" - ")
     artist_name = file[0]
     song_name = file[1]
+    song
   end
-    
+
   def self.destroy_all
     self.all.clear
   end
